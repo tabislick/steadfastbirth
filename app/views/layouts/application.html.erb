@@ -11,13 +11,11 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Italianno" />
 
   <style>
-footer {
+  footer {
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -27,40 +25,74 @@ footer {
   background-position: 0% 0%;
   text-align: center;
   color: #808080;
-
 }
+
+footer a {
+  color: #808080;
+}
+
   </style>
 
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=41952324249";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
- <nav class="navbar navbar-custom navbar-fixed-top">
-<div class="container-fluid">
-    <div class="navbar-header text-right">
-      <h1>Steadfast Birth Services</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	<span class="icon-bar"></span>                      
+      </button>
+      <div class="navbar-brand" style="">SBS</div>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="home">Home</a></li>
-      <li><a href="whyadoula">Why Hire A Doula</a></li>
-      <li><a href="bio">Bio</a></li>
-      <li><a href="services">Services</a></li>
-
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="home">HOME</a></li>
+        <li><a href="whyadoula">WHY HIRE A DOULA</a></li>
+        <li><a href="bio">BIO</a></li>
+        <li><a href="services">SERVICES</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
-
 <%= yield %>
+
+
 <br>
 </div>
 
 <footer>
 <div id="footer">
-<p class='text-center'>
-DEVELOPED BY <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
+<p class='text-left'>
+Developed by <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
 </p>
 </div>
 </footer>
 
+<script>
+	$(document).ready(function(){
+	// Initialize Tooltip
+	$('[data-toggle="tooltip"]').tooltip();
+})
+</script>
 </body>
 </html>

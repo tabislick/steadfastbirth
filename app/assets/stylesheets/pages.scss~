@@ -12,42 +12,27 @@ body {
 	padding: 0;
 	background-image: url(image-path('forest.jpg'));
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
+background-attachment: fixed;
+	}
 
 .img-fluid {
 	max-width: 500px;
 	height: auto;
 }
 
-.navbar {
-	margin-bottom: 0;
-	border-radius: 0;
-	background-color: #ffffff;
-	color: #808080;
-    }
-
-.navbar-nav {
-    width: 100%;
-    color: #d9d9d9;
-  }
-
-.navbar-custom .navbar-toggle .icon-bar {
-    background-color: black;
+.carousel-inner img {
+	-webkit-filter: grayscale(90%);
+	width: 100%;
+	margin: auto;
 }
 
 .navbar .nav > li > a {
-    color: #808080;
+	color: #808080;
 }
 
-.navbar-header h1 {
-	font-family: 'Lovers Quarrel', cursive;
-	font-size: 50px;
+.title {
+	font: 400 3.5em/125% 'Italianno', Helvetica, 	Sans-serif;
+	color: #333;
+	text-size: 90px;
 }
-
-  .carousel-inner img {
-      -webkit-filter: grayscale(90%);
-      width: 100%; 
-      margin: auto;
-  }
 

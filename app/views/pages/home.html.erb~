@@ -2,8 +2,7 @@
 
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-<h1>Steadfast Birth Services</h1>
-        <%= image_tag('birth.jpg', class: 'image-responsive')%>
+        <%= image_tag('steadfastBirth.png', class: 'image-responsive')%>
     </div>
 
 <div id="content" class='container-fluid'>
