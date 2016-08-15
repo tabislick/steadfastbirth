@@ -1,0 +1,53 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html{
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+
+body {
+	padding: 0;
+	background-image: url(image-path('forest.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.img-fluid {
+	max-width: 500px;
+	height: auto;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #ffffff;
+	color: #808080;
+    }
+
+.navbar-nav {
+    width: 100%;
+    color: #d9d9d9;
+  }
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar .nav > li > a {
+    color: #808080;
+}
+
+.navbar-header h1 {
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 50px;
+}
+
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      width: 100%; 
+      margin: auto;
+  }
+

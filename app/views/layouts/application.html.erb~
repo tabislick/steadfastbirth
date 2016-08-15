@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <title>Steadfast Birth Services</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+
+  <style>
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  text-align: center;
+  color: #808080;
+
+}
+  </style>
+
+</head>
+<body>
+
+ <nav class="navbar navbar-custom navbar-fixed-top">
+    <ul class="nav navbar-nav">
+<div class="container-fluid">
+    <div class="navbar-header text-right">
+      <h1>Steadfast Birth Services</h1>
+    </div>
+      <li class="active"><a href="home">Home</a></li>
+      <li><a href="whyadoula">Why Hire A Doula</a></li>
+      <li><a href="bio">Bio</a></li>
+      <li><a href="services">Services</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<%= yield %>
+<br>
+</div>
+
+<footer>
+<div id="footer">
+<p class='text-center'>
+DEVELOPED BY <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
+</p>
+</div>
+</footer>
+
+</body>
+</html>

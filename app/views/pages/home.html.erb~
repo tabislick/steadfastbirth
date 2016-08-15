@@ -1,0 +1,9 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+<h1>Steadfast Birth Services</h1>
+        <%= image_tag('birth.jpg', class: 'image-responsive')%>
+    </div>
+
+<div id="content" class='container-fluid'>
