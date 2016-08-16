@@ -26,6 +26,10 @@ background-attachment: fixed;
 	margin: auto;
 }
 
+.navbar-custom .navbar-toggle .icon-bar {
+	background-color: black;
+}
+
 .navbar .nav > li > a {
 	color: #808080;
 }
