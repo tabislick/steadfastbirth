@@ -15,32 +15,57 @@ body {
 
 /* line 18, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
 .img-fluid {
-  max-width: 500px;
+  height: auto;
+  display: block;
+  max-width: 100%;
   height: auto;
 }
 
-/* line 23, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+/* line 25, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
 .carousel-inner img {
-  -webkit-filter: grayscale(90%);
   width: 100%;
   margin: auto;
 }
 
-/* line 29, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+/* line 30, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
 .navbar-custom .navbar-toggle .icon-bar {
   background-color: black;
 }
 
-/* line 33, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+/* line 34, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
 .navbar .nav > li > a {
   color: #808080;
 }
 
-/* line 37, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+/* line 38, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
 .title {
   font: 400 3.5em/125% 'Italianno', Helvetica, 	Sans-serif;
   color: #333;
   text-size: 90px;
+}
+
+/* line 44, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+.about h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #0066cc;
+}
+
+/* line 49, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+.about h3 {
+  font-family: 'Dancing Script', cursive;
+  color: #0066cc;
+}
+
+/* line 54, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+.doula h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #0066cc;
+}
+
+/* line 59, /home/slick/slickdevelopment/sfbirth/app/assets/stylesheets/pages.scss */
+.services h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #0066cc;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :pages
   
   get '/home' => 'pages#home'
-  get '/bio' => 'pages#bio'
+  get '/meetElesha' => 'pages#bio'
   get '/whyadoula' => 'pages#whyadoula'
   get '/services' => 'pages#services'
 
