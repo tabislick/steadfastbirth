@@ -16,8 +16,10 @@ background-attachment: fixed;
 	}
 
 .img-fluid {
-	max-width: 500px;
 	height: auto;
+	display: block;
+  	max-width: 100%;
+  	height: auto;
 }
 
 .carousel-inner img {
